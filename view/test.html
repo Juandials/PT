@@ -1,0 +1,93 @@
+<html>
+<head>   
+  <title>ProjeQtOr - Provider bill #2</title>
+  <link rel="stylesheet" type="text/css" href="css/jsgantt.css" />
+  <link rel="stylesheet" type="text/css" href="css/projeqtorIcons.css" />
+  <link rel="stylesheet" type="text/css" href="css/projeqtorPrint.css" />
+  <link rel="stylesheet" type="text/css" href="css/projeqtorFlat.css" />
+  <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
+  <link rel="icon" href="img/logo.ico" type="image/x-icon" />
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ 
+  <script type="text/javascript" src="../external/dojo/dojo.js"
+    djConfig='modulePaths: {"i18n":"../../tool/i18n",
+                            "i18nCustom":"../../plugin"},
+              parseOnLoad: true,
+              isDebug: false'></script>
+  <script type="text/javascript" src="../external/dojo/projeqtorDojo.js"></script>
+  <script type="text/javascript" src="../view/js/jsgantt.js"></script>
+  <script type="text/javascript"> 
+    var customMessageExists=false;
+    dojo.require("dojo.dnd.Container");
+    dojo.require("dijit.layout.BorderContainer");
+    dojo.require("dijit.layout.ContentPane");
+    dojo.require("dojo.parser");
+    dojo.require("dojo.i18n");
+    //dojo.require("dojo.date.locale");
+    dojo.addOnLoad(function(){
+            var printInNewWindow=false;
+      if (printInNewWindow) {
+        var objTop=window.opener;
+      } else {
+    	  var objTop=top;
+    	  objTop.window.document.title="ProjeQtOr - Provider bill #2";
+      }
+      objTop.hideWait();
+      //objTop.window.document.title="ProjeQtOr - Provider bill #2";
+      //window.document.title=applicationName;
+          }); 
+    
+  </script>
+</head>
+<page backtop="100px" backbottom="20px" footer="page">
+<body style="-webkit-print-color-adjust: exact;font-size:90%;" id="bodyPrint" class="tundra ProjeQtOrFlatGrey" onload="window.top.hideWait();">
+  <br/><div class="reportTableHeader" style="width:750px;font-size:150%;">Provider bill #2&nbsp;-&nbsp;aaa</div><br/><div x	dojoType="dijit.layout.BorderContainer">
+  <table class="detail" style="width:760px;" ><tr><td class="section">Description</td></tr><tr class="detail" style="height:2px;font-size:2px;"><td class="detail" >&nbsp;</td></tr></table><table class="detail" style="width:760px;" ><tr class="detail" style=""><td class="label" style="position:relative;width:145px;"><label for="id" class="generalColClass idClass" style=";">id&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style="color:grey;">#2&nbsp;&nbsp;&nbsp;</span><span style="">001-001--1</span></td></tr>
+<tr class="detail generalRowClass nameClass" style=""><td class="label" style="position:relative;width:145px;"><label for="name" class="generalColClass nameClass" style=";">name&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style="">aaa</span></td></tr>
+<tr class="detail generalRowClass idProviderBillTypeClass" style=""><td class="label" style="position:relative;width:145px;"><label for="idProviderBillType" class="generalColClass idProviderBillTypeClass" style=";">provider&nbsp;bill&nbsp;type&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style="">Partial bill</span></td></tr>
+<tr class="detail generalRowClass idProjectClass" style=""><td class="label" style="position:relative;width:145px;"><label for="idProject" class="generalColClass idProjectClass" style=";">project&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style="">project one</span></td></tr>
+<tr class="detail generalRowClass idUserClass" style=""><td class="label" style="position:relative;width:145px;"><label for="idUser" class="generalColClass idUserClass" style=";">user&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style="">admin</span></td></tr>
+<tr class="detail generalRowClass creationDateClass" style=""><td class="label" style="position:relative;width:145px;"><label for="creationDate" class="generalColClass creationDateClass" style=";">creation&nbsp;date&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style="">14/02/2020</span></td></tr>
+<tr class="detail generalRowClass dateClass" style=""><td class="label" style="position:relative;width:145px;"><label for="date" class="generalColClass dateClass" style=";">date&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style=""></span></td></tr>
+<tr class="detail"><td class="label" xstyle="width:10%;"><label for="Origin" >origin&nbsp;:&nbsp;</label></td><td style="width: 120px"><table><tr height="20px"><td></td></tr></table></td></tr>
+<tr class="detail generalRowClass idProviderClass" style=""><td class="label" style="position:relative;width:145px;"><label for="idProvider" class="generalColClass idProviderClass" style=";">provider&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style=""></span></td></tr>
+<tr class="detail generalRowClass externalReferenceClass" style=""><td class="label" style="position:relative;width:145px;"><label for="externalReference" class="generalColClass externalReferenceClass" style=";">external&nbsp;reference&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style="">zz</span></td></tr>
+<tr class="detail generalRowClass descriptionClass" style=""><td colspan="2"><div style="text-align:left;font-weight:normal" class="tabLabel">description&nbsp;:&nbsp;</div><div style="border:1px dotted #AAAAAA;width:740px;padding:5px;"><div></div>&nbsp;</div></td></tr>
+<tr class="detail generalRowClass additionalInfoClass" style=""><td colspan="2"><div style="text-align:left;font-weight:normal" class="tabLabel">additional info.&nbsp;:&nbsp;</div><div style="border:1px dotted #AAAAAA;width:740px;padding:5px;"><div></div>&nbsp;</div></td></tr>
+</table><br/><table class="detail" style="width:760px;" ><tr><td class="section">Treatment</td></tr><tr class="detail" style="height:2px;font-size:2px;"><td class="detail" >&nbsp;</td></tr></table><table class="detail" style="width:760px;" ><tr class="detail generalRowClass idStatusClass" style=""><td class="label" style="position:relative;width:145px;"><label for="idStatus" class="generalColClass idStatusClass" style=";">status&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style="">recorded</span></td></tr>
+<tr class="detail generalRowClass idResourceClass" style=""><td class="label" style="position:relative;width:145px;"><label for="idResource" class="generalColClass idResourceClass" style=";">responsible&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style=""></span></td></tr>
+<tr class="detail generalRowClass idContactClass" style=""><td class="label" style="position:relative;width:145px;"><label for="idContact" class="generalColClass idContactClass" style=";">contact&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style=""></span></td></tr>
+<tr class="detail generalRowClass paymentConditionClass" style=""><td class="label" style="position:relative;width:145px;"><label for="paymentCondition" class="generalColClass paymentConditionClass" style=";">payment&nbsp;conditions&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style=""></span></td></tr>
+<tr class="detail generalRowClass paymentDueDateClass" style=""><td class="label" style="position:relative;width:145px;"><label for="paymentDueDate" class="generalColClass paymentDueDateClass" style=";">payment&nbsp;due&nbsp;date&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style=""></span></td></tr>
+<tr class="detail" style=""><td class="label" style="position:relative;width:145px;"><label for="handled" class="generalColClass handledClass" style=";">handled&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><img src="img/checkedKO.png" /><span style=""></span></td></tr>
+<tr class="detail" style=""><td class="label" style="position:relative;width:145px;"><label for="done" class="generalColClass doneClass" style=";">done&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><img src="img/checkedKO.png" /><span style=""></span></td></tr>
+<tr class="detail" style=""><td class="label" style="position:relative;width:145px;"><label for="idle" class="generalColClass idleClass" style=";">closed&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><img src="img/checkedKO.png" /><span style=""></span>&nbsp;&nbsp;&nbsp;<img src="img/checkedKO.png" /><span class="tabLabel" style="font-weight:normal">cancelled</span>&nbsp;</td></tr></table><table id="_tab_4_3_smallLabel" class="detail"><tr class="detail"><td class="detail"></td><td class="detail" style="min-width:75px;padding-top:5px;text-decoration: underline;padding-bottom:2px;"><div class="tabLabel" style="text-align:left;white-space:nowrap;">ex VAT</div></td><td class="detail" style="min-width:75px;padding-top:5px;text-decoration: underline;padding-bottom:2px;"><div class="tabLabel" style="text-align:left;white-space:nowrap;">tax</div></td><td class="detail" style="min-width:75px;padding-top:5px;text-decoration: underline;padding-bottom:2px;"><div class="tabLabel" style="text-align:left;white-space:nowrap;"></div></td><td class="detail" style="min-width:75px;padding-top:5px;text-decoration: underline;padding-bottom:2px;"><div class="tabLabel" style="text-align:left;white-space:nowrap;">full</div></td></tr>
+<tr class="detail"><td class="smallLabel" style="text-align:right;width:145px;"><label class="label smallLabel">initial&nbsp;:&nbsp;</label></td><td style="text-align:right;width:90%;white-space:nowrap;"><span style=""></span></td><td class="detail" style="white-space:nowrap;"><span style="">0.00&nbsp;%</span></td><td class="detail" style="text-align:right;white-space:nowrap;"><span style=""></span></td><td class="detail" style="text-align:right;white-space:nowrap;"><span style=""></span></td></tr>
+<tr class="detail"><td class="smallLabel" style="text-align:right;width:145px;"><label class="label smallLabel">discount&nbsp;:&nbsp;</label></td><td style="text-align:right;width:90%;white-space:nowrap;"><span style=""></span></td><td class="detail" style="white-space:nowrap;"><label class="label shortlabel">rate (%)&nbsp;:&nbsp;</label></td><td class="detail" style="white-space:nowrap;"><span style="">0.00&nbsp;%</span></td><td class="detail" style="text-align:right;white-space:nowrap;"><span style=""></span></td></tr>
+<tr class="detail"><td class="smallLabel" style="text-align:right;width:145px;"><label class="label smallLabel">total&nbsp;:&nbsp;</label></td><td style="text-align:right;width:90%;white-space:nowrap;"><span style=""></span></td><td class="detail" style="white-space:nowrap;"></td><td class="detail" style="text-align:right;white-space:nowrap;"><span style=""></span></td><td class="detail" style="text-align:right;white-space:nowrap;"><span style=""></span></td></tr></table><table  style="width:760px"><tr class="detail generalRowClass idProjectExpenseClass" style=""><td class="label" style="position:relative;width:145px;"><label for="idProjectExpense" class="generalColClass idProjectExpenseClass" style=";">project&nbsp;expense&nbsp;:&nbsp;</label>
+</td><td style="width:610px"><span style=""></span></td></tr>
+<tr class="detail generalRowClass _button_generateProjectExpenseClass" style=""><td class="label" style="position:relative;width:145px;"><label for="_button_generateProjectExpense" class="generalColClass _button_generateProjectExpenseClass" style=";">generate&nbsp;expense&nbsp;:&nbsp;</label>
+</td><td style="width:610px"></td></tr>
+</table><table id="_tab_3_1_smallLabel" class="detail"><tr class="detail"><td class="detail"></td><td class="detail" style="min-width:100px;padding-top:5px;text-decoration: underline;padding-bottom:2px;"><div class="tabLabel" style="text-align:left;white-space:nowrap;">date</div></td><td class="detail" style="min-width:100px;padding-top:5px;text-decoration: underline;padding-bottom:2px;"><div class="tabLabel" style="text-align:left;white-space:nowrap;">amount</div></td><td class="detail" style="min-width:100px;padding-top:5px;text-decoration: underline;padding-bottom:2px;"><div class="tabLabel" style="text-align:left;white-space:nowrap;">complete</div></td></tr>
+<tr class="detail"><td class="smallLabel" style="text-align:right;width:145px;"><label class="label smallLabel">payment&nbsp;:&nbsp;</label></td><td style="width:90%;white-space:nowrap;"><span style=""></span></td><td class="detail" style="text-align:right;white-space:nowrap;"><span style=""></span></td><td class="detail" style="white-space:nowrap;"><img src="img/checkedKO.png" /></td></tr></table><table  style="width:760px"><tr><td colspan=2><div style="position:relative;top:0px;left:80px;width:350px; "><table style="width:100%"></table></div></td></tr><tr class="detail generalRowClass commentClass" style=""><td colspan="2"><div style="text-align:left;font-weight:normal" class="tabLabel">comments&nbsp;:&nbsp;</div><div style="border:1px dotted #AAAAAA;width:740px;padding:5px;"><div></div>&nbsp;</div></td></tr>
+</table><br/><table class="detail" style="width:760px;" ><tr><td class="section">list of terms</td></tr><tr class="detail" style="height:2px;font-size:2px;"><td class="detail" >&nbsp;</td></tr></table><table class="detail" style="width:760px;" ><tr><td colspan="2" style="width:100%;"><table style="width:100%;"><tr><td class="assignHeader" colspan="1" style="width:10%">id</td><td class="assignHeader" colspan="1" style="width:15%">date</td><td class="assignHeader" colspan="1" style="width:20%">amount</td><td class="assignHeader" colspan="1" style="width:45%">order to provider</td></tr></table></td></tr></table><br/><table class="detail" style="width:760px;" ><tr><td class="section">Linked Elements</td></tr><tr class="detail" style="height:2px;font-size:2px;"><td class="detail" >&nbsp;</td></tr></table><table class="detail" style="width:760px;" ><tr><td colspan="2"><table style="width:100%;"><tr><td class="linkHeader" style="width:20%">element</td><td class="linkHeader" style="width:55%">name</td><td class="linkHeader" style="width:15%">status</td><td class="linkHeader" style="width:10%">resp.</td></tr></table></td></tr></table><br/><table class="detail" style="width:760px;" ><tr><td class="section">Attachments</td></tr><tr class="detail" style="height:2px;font-size:2px;"><td class="detail" >&nbsp;</td></tr></table><table class="detail" style="width:760px;" ><input type="hidden" id="attachmentIdle" value="0" /><tr><td colspan="2"><table width="100%"><tr><td class="attachmentHeader" style="width:5%">id</td><td colspan="2" class="attachmentHeader" style="width:95%">file</td></tr><tr><td class="attachmentDataClosetable">&nbsp;</td><td class="attachmentDataClosetable">&nbsp;</td><td class="attachmentDataClosetable">&nbsp;</td></tr></table></td></tr></table><br/><table class="detail" style="width:760px;" ><tr><td class="section">Notes</td></tr><tr class="detail" style="height:2px;font-size:2px;"><td class="detail" >&nbsp;</td></tr></table><table class="detail" style="width:760px;" ><input type="hidden" id="noteIdle" value="0" /><tr><td class="noteHeader" style="width:5%">id</td><td colspan="6" class="noteHeader" style="width:95%">note</td></tr><tr><td colspan="2" class="noteDataClosetable">&nbsp;</td></tr></table><br/><table class="detail" style="width:760px;" ><tr><td class="section">Bill lines</td></tr><tr class="detail" style="height:2px;font-size:2px;"><td class="detail" >&nbsp;</td></tr></table><table class="detail" style="width:760px;" ><tr><td class="noteHeader" style="width:5%">id</td><td class="noteHeader" style="width:5%">n°</td><td class="noteHeader" style="width:20%">description</td><td class="noteHeader" style="width:25%">detail</td><td class="noteHeader" style="width:10%">unit price</td><td class="noteHeader" style="width:10%">quantity</td><td class="noteHeader" style="width:10%">sum</td></tr><tr><td class="noteDataClosetable">&nbsp;</td><td class="noteDataClosetable">&nbsp;</td><td class="noteDataClosetable">&nbsp;</td><td class="noteDataClosetable">&nbsp;</td></tr></table><div></div></div></body>
+</page>
+</html>

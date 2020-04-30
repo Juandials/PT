@@ -1,0 +1,491 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Document directories management &#8212; ProjeQtOr User guide 8.4.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/projeqtor.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '8.4.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="ProjeQtOr User guide 8.4.1 documentation" href="index.html" />
+    <link rel="next" title="Expenses" href="Expenses.html" />
+    <link rel="prev" title="Real work allocation" href="RealWorkAllocation.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Expenses.html" title="Expenses"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="RealWorkAllocation.html" title="Real work allocation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">ProjeQtOr User guide 8.4.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="documents">
+<span id="document"></span><span id="index-0"></span><h1>Documents<a class="headerlink" href="#documents" title="Permalink to this headline">¶</a></h1>
+<div class="sidebar">
+<p class="first sidebar-title">Concepts</p>
+<ul class="last simple">
+<li><a class="reference internal" href="Concept.html#product-concept"><span class="std std-ref">Product</span></a></li>
+</ul>
+</div>
+<p>A document is a reference element that gives a description of a project or product.</p>
+<p>The document element describes the general information.</p>
+<p>The file will be stored in the tool as versions.</p>
+<p class="rubric">files storage</p>
+<p>Document will always refer to a directory where the file is physically stored.</p>
+<p>Directories are defined in <a class="reference internal" href="#document-directory"><span class="std std-ref">Document directories</span></a> screen.</p>
+<p class="rubric">Approval process</p>
+<p>You can define approvers to a document.</p>
+<p>When all approvers have approved the document version, it is considered as approved and then appears with a check in the list of versions.</p>
+<p>When creating an approver in the list, the approver is also automatically added to the latest version of the document.</p>
+<p>When adding a version to the document, the approvers are automatically added to the version.</p>
+</div>
+<div class="section" id="document-directories">
+<span id="document-directory"></span><span id="index-1"></span><h1>Document directories<a class="headerlink" href="#document-directories" title="Permalink to this headline">¶</a></h1>
+<p>Document directories management allows to define a structure for document storage.</p>
+<ul class="simple">
+<li>The files of document will be stored in the folder defined by the parameters  <strong>Document root</strong> and <strong>Location</strong>.</li>
+<li><strong>Document root</strong> is defined in <a class="reference internal" href="GlobalParameters.html#file-directory-section"><span class="std std-ref">Global parameters</span></a> screen.</li>
+</ul>
+<p class="rubric">Section Description</p>
+<table border="1" class="docutils" id="id1">
+<caption><span class="caption-text">Required field <a class="reference internal" href="_images/RequiredFILE.png"><img alt="Required File legend" src="_images/RequiredFILE.png" style="width: 1.7999999999999998px; height: 10.799999999999999px;" /></a></span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="Glossary.html#term-id"><span class="xref std std-term">Id</span></a></td>
+<td>Unique Id for the directory.</td>
+</tr>
+<tr class="row-odd"><td><img alt="Required File" src="_images/RequiredFILE.png" /> Name</td>
+<td>Name of the directory.</td>
+</tr>
+<tr class="row-even"><td>Parent directory</td>
+<td>Name of the parent directory to define hierarchic structure.</td>
+</tr>
+<tr class="row-odd"><td>Location</td>
+<td>Folder where files will be stored.</td>
+</tr>
+<tr class="row-even"><td>Project</td>
+<td>Directory is dedicated to this project.</td>
+</tr>
+<tr class="row-odd"><td>Product</td>
+<td>Directory is dedicated to this product.</td>
+</tr>
+<tr class="row-even"><td>Default type</td>
+<td>Type of document the directory is dedicated to.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="Glossary.html#term-closed"><span class="xref std std-term">Closed</span></a></td>
+<td>Flag to indicate that directory is archived.</td>
+</tr>
+</tbody>
+</table>
+<div class="topic">
+<p class="topic-title first">Field <strong>Parent directory</strong></p>
+<p>The current directory is then a sub-directory of parent.</p>
+</div>
+<div class="topic">
+<p class="topic-title first">Field <strong>Location</strong></p>
+<p>Location is automatically defined as «Parent directory» / «Name».</p>
+</div>
+<div class="topic">
+<p class="topic-title first">Field <strong>Project</strong></p>
+<p>This project will be the default to new stored documents in this directory.</p>
+</div>
+<div class="topic">
+<p class="topic-title first">Field <strong>Product</strong></p>
+<p>This product will be the default to new stored documents in this directory.</p>
+<p>If the project is specified, the list of values contains the products linked the selected project.</p>
+<p>If the project is not specified, the list of values contains all products defined.</p>
+</div>
+<div class="topic">
+<p class="topic-title first">Field <strong>Default type</strong></p>
+<p>This document type will be the default to new stored documents in this directory.</p>
+</div>
+<span class="target" id="index-2"></span></div>
+<div class="section" id="document-versioning">
+<span id="versioning"></span><span id="index-3"></span><h1>Document versioning<a class="headerlink" href="#document-versioning" title="Permalink to this headline">¶</a></h1>
+<p>Document versioning allows to keep different version at each evolution of the document.</p>
+<p>Document can evolve and a new file is generated at each evolution.</p>
+<p>Type of versioning must be defined for a document.</p>
+<p class="rubric">Type of versioning</p>
+<p>A document can evolve following four ways defined as versioning type :</p>
+<blockquote>
+<div><div class="compound">
+<p class="compound-first"><strong>Evolutive</strong></p>
+<ul class="compound-last simple">
+<li>Version is a standard Vx.y format.</li>
+<li>It is the most commonly used versioning type.</li>
+<li>Major updates increase x and reset y to zero.</li>
+<li>Minor updates increase y.</li>
+</ul>
+</div>
+<div class="compound">
+<p class="compound-first"><strong>Chronological</strong></p>
+<ul class="compound-last simple">
+<li>Version is a date.</li>
+<li>This versioning type is commonly used for periodical documents.</li>
+<li>For instance : weekly boards.</li>
+</ul>
+</div>
+<div class="compound">
+<p class="compound-first"><strong>Sequential</strong></p>
+<ul class="compound-last simple">
+<li>Version is a sequential number.</li>
+<li>This versioning type is commonly used for recurring documents.</li>
+<li>For instance : Meeting reviews.</li>
+</ul>
+</div>
+<div class="compound">
+<p class="compound-first"><strong>Custom</strong></p>
+<ul class="compound-last simple">
+<li>Version is manually set.</li>
+<li>This versioning type is commonly used for external documents, when version is not managed by the tool, or when the format cannot fit any other versioning type.</li>
+</ul>
+</div>
+</div></blockquote>
+<p class="rubric">Section Description</p>
+<div class="sidebar">
+<p class="first sidebar-title">Other sections</p>
+<ul class="last simple">
+<li><a class="reference internal" href="CommonSections.html#linkelement-section"><span class="std std-ref">Linked element</span></a></li>
+<li><a class="reference internal" href="CommonSections.html#note-section"><span class="std std-ref">Notes</span></a></li>
+</ul>
+</div>
+<table border="1" class="docutils" id="id2">
+<caption><span class="caption-text">Required field <a class="reference internal" href="_images/RequiredFILE.png"><img alt="Required File legend" src="_images/RequiredFILE.png" style="width: 1.7999999999999998px; height: 10.799999999999999px;" /></a></span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="38%" />
+<col width="62%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="Glossary.html#term-id"><span class="xref std std-term">Id</span></a></td>
+<td>Unique Id for the document.</td>
+</tr>
+<tr class="row-odd"><td><img alt="Required File" src="_images/RequiredFILE.png" /> Name</td>
+<td>Short description of the document.</td>
+</tr>
+<tr class="row-even"><td><img alt="Required File" src="_images/RequiredFILE.png" /> Type</td>
+<td>Type of document.</td>
+</tr>
+<tr class="row-odd"><td>Project</td>
+<td>The project concerned by the document.</td>
+</tr>
+<tr class="row-even"><td>Product</td>
+<td>The product concerned by the document.</td>
+</tr>
+<tr class="row-odd"><td><img alt="Required File" src="_images/RequiredFILE.png" /> Directory</td>
+<td>Place where the document is stored  to organize document structure.</td>
+</tr>
+<tr class="row-even"><td>Document reference</td>
+<td>Document reference name.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="Glossary.html#term-external-reference"><span class="xref std std-term">External reference</span></a></td>
+<td>External reference of the document.</td>
+</tr>
+<tr class="row-even"><td>Author</td>
+<td>User or Resource or Contact who created the document.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="Glossary.html#term-closed"><span class="xref std std-term">Closed</span></a></td>
+<td>Box checked indicates the document is archived.</td>
+</tr>
+<tr class="row-even"><td>Cancelled</td>
+<td>Box checked indicates the document is cancelled.</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Project and Product</p>
+<p>Must be concerned either with a project, a product or both.</p>
+<p>If the project is specified, the list of values for field &#8220;Product&#8221; contains only products linked the selected project.</p>
+<p class="rubric">Document reference</p>
+<p>Document reference name is calculated from format defined in the <a class="reference internal" href="GlobalParameters.html#format-reference-doc"><span class="std std-ref">Global parameters</span></a> screen.</p>
+<p class="rubric">Field Author</p>
+<p>Positioned by default as the connected user.</p>
+<p>Can be changed (for instance if the author is not  the current user).</p>
+</div>
+<div class="section" id="version-management">
+<span id="version-managment"></span><span id="index-4"></span><h1>Version management<a class="headerlink" href="#version-management" title="Permalink to this headline">¶</a></h1>
+<p>This section allows to manage version list of document.</p>
+<table border="1" class="docutils" id="id3">
+<caption><span class="caption-text">Required field <a class="reference internal" href="_images/RequiredFILE.png"><img alt="Required File legend" src="_images/RequiredFILE.png" style="width: 1.7999999999999998px; height: 10.799999999999999px;" /></a></span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="33%" />
+<col width="67%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><img alt="Required File" src="_images/RequiredFILE.png" /> Versioning type</td>
+<td>Type of versioning for the document.</td>
+</tr>
+<tr class="row-odd"><td>Last version</td>
+<td>Caption of the last version of the document.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="Glossary.html#term-status"><span class="xref std std-term">Status</span></a></td>
+<td>Status of the last version of the document.</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>Click on <img alt="Button add" src="_images/ButtonAdd.png" /> to add a new version.</li>
+<li>Click on <img alt="Button edit" src="_images/smallButtonEdit.png" /> to modifiy a version.</li>
+<li>Click on <img alt="Button icon delete" src="_images/buttonIconDelete.png" /> to delete a version.</li>
+<li>Click on <img alt="Icon download" src="_images/smallButtonDownload.png" /> to download file at this version.</li>
+</ul>
+<p class="rubric">Document viewer</p>
+<ul class="simple">
+<li>Document viewer available for image, text and PDF files.</li>
+<li>Click on icon.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p><strong>Name of download file</strong></p>
+<p>The name of download file will be the document reference name displayed in <strong>description</strong> section.</p>
+<p class="last">If you want to preserve the uploaded file name, set the parameter in  the <a class="reference internal" href="GlobalParameters.html#format-reference-doc"><span class="std std-ref">Global parameters</span></a></p>
+</div>
+<div class="figure align-center" id="id4">
+<img alt="Dialog box - Document version" src="_images/BOX_DocumentVersion.png" />
+<p class="caption"><span class="caption-text">Document version dialog box</span></p>
+</div>
+<table border="1" class="docutils" id="id5">
+<caption><span class="caption-text">Fields - Document version dialog box</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>File</td>
+<td>This button allows to upload locale file.</td>
+</tr>
+<tr class="row-odd"><td>Last version</td>
+<td>Caption of the last existing version.</td>
+</tr>
+<tr class="row-even"><td>Update</td>
+<td>Importance of the update concerned by the new version.</td>
+</tr>
+<tr class="row-odd"><td>New version</td>
+<td>New caption for the created version.</td>
+</tr>
+<tr class="row-even"><td>Date</td>
+<td>Date of the version.</td>
+</tr>
+<tr class="row-odd"><td>Status</td>
+<td>Current status of the version.</td>
+</tr>
+<tr class="row-even"><td>Is a reference</td>
+<td>Check box to set this version is the new reference of the document.</td>
+</tr>
+<tr class="row-odd"><td>Description</td>
+<td>Description of the version.</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Field &#8220;Update&#8221;</p>
+<p>A version can have a draft status, that may be removed afterwards.</p>
+<p class="rubric">Field &#8220;Is a reference&#8221;</p>
+<p>Should be checked when version is validated.</p>
+<p>Only one version can be the reference for a document.</p>
+<p>Reference version is displayed in bold format in the versions list.</p>
+<p class="rubric">Field &#8220;Description&#8221;</p>
+<p>May be used to describe updates brought by the version.</p>
+<p>This icon <img alt="Note" src="_images/note.png" /> appears when the description field is filled.</p>
+<p>Moving the mouse over the icon will display description text.</p>
+<p class="rubric">Section Approvers</p>
+<p>This section allows to manage approver list of a document.</p>
+<table border="1" class="docutils" id="id6">
+<caption><span class="caption-text">Approver list fields</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Id</td>
+<td>Id of the approver.</td>
+</tr>
+<tr class="row-odd"><td>Name</td>
+<td>Name of the approver.</td>
+</tr>
+<tr class="row-even"><td>Status</td>
+<td>Status of the approval of the last version of document.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p><code class="kbd docutils literal"><span class="pre">Approve</span> <span class="pre">now</span></code></p>
+<p>This button appears in approver list.</p>
+<p>Just click on the button to approve the latest version of the document.</p>
+<p><code class="kbd docutils literal"><span class="pre">Send</span> <span class="pre">a</span> <span class="pre">reminder</span> <span class="pre">email</span> <span class="pre">to</span> <span class="pre">the</span> <span class="pre">approvers</span></code></p>
+<p class="last">This button allows to send a reminder email to all the approvers who have not yet approved the document.</p>
+</div>
+<p class="rubric">Approver list management</p>
+<ul class="simple">
+<li>Click on <img alt="Button add" src="_images/ButtonAdd.png" /> to add a new approver.</li>
+<li>Click on <img alt="Button icon delete" src="_images/buttonIconDelete.png" /> to delete the approver.</li>
+</ul>
+<p class="rubric" id="index-5">Section Lock</p>
+<p>This section allows to manage document locking.</p>
+<p>When a document is locked the following fields are displayed.</p>
+<table border="1" class="docutils" id="id7">
+<caption><span class="caption-text">Fields when the document is locked</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Locked</td>
+<td>Box checked indicates the document is locked.</td>
+</tr>
+<tr class="row-odd"><td>Locked by</td>
+<td>User who locked the document.</td>
+</tr>
+<tr class="row-even"><td>Locked since</td>
+<td>Date and time when document was locked.</td>
+</tr>
+</tbody>
+</table>
+<div class="compound">
+<p class="compound-first">lock/unlock this document</p>
+<ul class="compound-last simple">
+<li>Button to lock or unlock the document to preserve it from being editing, or new version added.</li>
+<li>When document is locked it cannot be modified</li>
+<li>When the document is locked, it can not be downloaded except for the user who locked it or a user with privilege</li>
+<li>Only the user who locked the document, or a user with privilege can unlock it</li>
+<li>You can forbid <a class="reference internal" href="GlobalParameters.html#format-reference-doc"><span class="std std-ref">Global Parameters</span></a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="nomenclature">
+<h1>Nomenclature<a class="headerlink" href="#nomenclature" title="Permalink to this headline">¶</a></h1>
+<p class="rubric">product designation in the document nomenclature</p>
+<p>Possibility to take into account the designation of the product in the nomenclature of documents with the new codes</p>
+<ul class="simple">
+<li>{PROD} product designation</li>
+<li>{PROJ / PROD} the project code if specified, otherwise the product designation</li>
+<li>{PROD / PROJ} designation of the product if specified, otherwise the project code</li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/Projeqtor_Logo_White.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Documents</a></li>
+<li><a class="reference internal" href="#document-directories">Document directories</a></li>
+<li><a class="reference internal" href="#document-versioning">Document versioning</a></li>
+<li><a class="reference internal" href="#version-management">Version management</a></li>
+<li><a class="reference internal" href="#nomenclature">Nomenclature</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="RealWorkAllocation.html"
+                        title="previous chapter">Real work allocation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Expenses.html"
+                        title="next chapter">Expenses</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Expenses.html" title="Expenses"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="RealWorkAllocation.html" title="Real work allocation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">ProjeQtOr User guide 8.4.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016-2018, ProjeQtOr.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.8.
+    </div>
+  </body>
+</html>
